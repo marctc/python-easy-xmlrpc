@@ -48,7 +48,7 @@ Then create a list of `ServiceDefinition`:
         ServiceDefinition('', StatusService),
         ServiceDefinition('currentTime', CurrentTimeService)
     ]
-`ServiceDefinition` is a class used to define a nesting hierarchy between a service name and function names. In this example it will create  `currentTime.<method_name>` as a base for the defined methods in `CurrentTimeService`-
+`ServiceDefinition` is a class used to define a nesting hierarchy between a service name and function names. In this example it will create  `currentTime.<method_name>` as a base for the defined methods in `CurrentTimeService`.
 
 Finally you can invoke a XMLRPC server in this way:
 
