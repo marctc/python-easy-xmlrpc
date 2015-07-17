@@ -1,10 +1,10 @@
 # python-easy-xmlrpc
 A pythonic XML-RPC microframework inspired in Django to build clean and well structured XML-RPC APIs.
 
-####Warning
+### Motivation
+
 First of all if you need make a web API you probably should use REST instead of XML-RPC. However if you still want to use XML-RPC take a look to this package:
 
-### Motivation
 Python has `xmlrpc` module in the standard library to work with [XML-RPC protocol](https://en.wikipedia.org/wiki/XML-RPC). However it has some caveats when working with nested procedure calls. Let's take the example from the [original documentation](https://docs.python.org/3/library/xmlrpc.server.html) to define a XMLRPC method called `currentTime.getCurrentTime()`:
 
     class ExampleService:
